@@ -9,6 +9,8 @@ const ContactList = (props) => {
     props.getContactId(id);
   };
 
+  // mapping the all contacts present in api 
+
   const renderContactList = props.contacts.map((contact) => {
     return (
       <ContactCard

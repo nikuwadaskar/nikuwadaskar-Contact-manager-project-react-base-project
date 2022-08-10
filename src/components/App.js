@@ -63,11 +63,15 @@ function App() {
     getAllCOntacts();
   }, []);
 
+
+  // using hooks to upadate contacts after chnages happens 
   useEffect(() => {
     //localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts));
   }, [contacts]);
 
   return (
+
+    // using roters to routes between all the componants 
     <div className="ui container">
       <Router>
         <Header />
