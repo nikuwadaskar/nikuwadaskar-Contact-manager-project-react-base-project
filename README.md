@@ -6,6 +6,12 @@
 - Update a contact, make a PUT call to the above url. (Again this is a dummy call).
 - Delete a contact, make a DELETE call to the above url. (Again this is a dummy call).
 # Demo-Link
+`<link>`: [Contact Manager App](https://contact-manager-app-project.netlify.app/)
+
+# Scrennshots
+![one](./one.jpg)
+![two](./two.jpg)
+![three](./three.jpg)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
