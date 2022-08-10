@@ -18,7 +18,7 @@ function App() {
     const response = await api.get("/users");
     return response.data;
   };
-// add contact call
+  // add contact call
   const addContactHandler = async (contact) => {
     // console.log(contact);
     const request = {
@@ -42,7 +42,7 @@ function App() {
       })
     );
   };
-// remove contact call
+  // remove contact call
   const removeContactHandler = async (id) => {
     await api.delete(`/users/${id}`);
     const newContactList = contacts.filter((contact) => {
