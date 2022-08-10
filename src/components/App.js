@@ -18,9 +18,9 @@ function App() {
     const response = await api.get("/users");
     return response.data;
   };
-
+// add contact call
   const addContactHandler = async (contact) => {
-    console.log(contact);
+    // console.log(contact);
     const request = {
       // id: uuid(),
       ...contact,
@@ -32,6 +32,7 @@ function App() {
     setContacts([...contacts, response.data]);
   };
 
+  // update contact call
   const updateContactHandler = async (contact) => {
     const response = await api.patch(`/users/${contact.id}`, contact);
     const { id } = response.data;
@@ -41,7 +42,7 @@ function App() {
       })
     );
   };
-
+// remove contact call
   const removeContactHandler = async (id) => {
     await api.delete(`/users/${id}`);
     const newContactList = contacts.filter((contact) => {

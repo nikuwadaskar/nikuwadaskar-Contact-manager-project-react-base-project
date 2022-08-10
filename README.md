@@ -9,9 +9,9 @@
 `<link>`: [Contact Manager App](https://contact-manager-app-project.netlify.app/)
 
 # Scrennshots
-![one](./one.jpg)
-![two](./two.jpg)
-![three](./three.jpg)
+![one](./src/images/one.jpg)
+![two](./src/images/two.jpg)
+![three](./src/images/three.jpg)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
